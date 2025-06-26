@@ -27,11 +27,8 @@ This project performs sentiment analysis on tweets using the Sentiment140 datase
 - TF-IDF vectorization for feature extraction
 - Model training using:
   - Logistic Regression
-  - Multinomial Naive Bayes
 - Evaluation using:
   - Accuracy Score
-  - Confusion Matrix
-  - Classification Report
 - Custom tweet sentiment prediction
 
 ---
@@ -95,12 +92,9 @@ Use the following command to install libraries:
 
 - Train models:
   - Logistic Regression
-  - Multinomial Naive Bayes
 
 - Evaluate the models using:
   - Accuracy score
-  - Confusion matrix
-  - Classification report
 
 - Predict sentiment for custom tweets using the trained model
 
@@ -109,9 +103,6 @@ Use the following command to install libraries:
 ## 📊 Sample Output
 
 Example accuracy: 81.5%  
-Example confusion matrix:  
-[[120 10]  
- [22 148]]
 
 Prediction example:  
 Input: "I love this product!"  
@@ -124,15 +115,6 @@ Output: Positive
 - GeeksforGeeks YouTube - Twitter Sentiment Analysis  
 - Sentiment140 Dataset - Kaggle  
 - Scikit-learn Documentation
-
----
-
-## 🧠 Future Work
-
-- Apply deep learning models like LSTM or BERT for better results
-- Deploy the model as a web app using Streamlit or Flask
-- Improve accuracy by including emoji/emoticon handling and hashtag analysis
-- Try advanced vectorization like Word2Vec or BERT embeddings
 
 ---
 
