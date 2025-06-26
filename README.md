@@ -91,6 +91,7 @@ Stopword removal
 
 🔹 Predict sentiment for custom tweets using your trained model.
 
+---
 
 📊 Sample Output 
 Example:
@@ -98,12 +99,14 @@ Accuracy: 81.5%
 Confusion Matrix
 Prediction: "I love this product!" → Positive
 
+---
 
 📚 References
 GeeksforGeeks YouTube - Twitter Sentiment Analysis
 Sentiment140 Dataset - Kaggle
 Scikit-learn Documentation
 
+---
 
 🧠 Future Work
 🧠 Apply deep learning models like LSTM or BERT for better results.
@@ -111,10 +114,12 @@ Scikit-learn Documentation
 😊 Improve accuracy by including emoji/emoticon handling and hashtag analysis.
 🔤 Try different vectorization methods like Word2Vec or BERT embeddings.
 
+---
 
 👩‍💻 Author
 Devika Janardhanan
 
+---
 
 📜 License
 This project is licensed under the MIT License.
