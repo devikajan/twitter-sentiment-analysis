@@ -46,6 +46,7 @@ This project performs sentiment analysis on tweets using the [Sentiment140](http
    uploaded = files.upload()
 
    Load and Prepare the Dataset
+---
 
 python
 Copy code
@@ -73,12 +74,16 @@ Evaluate performance
 
 Predict sentiment for custom tweets
 
+---
+
 📚 References
 GeeksforGeeks YouTube - Twitter Sentiment Analysis
 
 Sentiment140 Dataset - Kaggle
 
 Scikit-learn Documentation
+
+---
 
 🧠 Future Work
 Apply deep learning models like LSTM or BERT for improved accuracy
@@ -87,8 +92,12 @@ Deploy the model as a web app using Streamlit or Flask
 
 Handle emojis, hashtags, and slang in tweets for more accurate sentiment detection
 
+---
+
 👩‍💻 Author
 Devika Janardhanan
+
+---
 
 📜 License
 This project is licensed under the MIT License.
