@@ -44,3 +44,53 @@ This project performs sentiment analysis on tweets using the [Sentiment140](http
    ```python
    from google.colab import files
    uploaded = files.upload()
+
+   Load and Prepare the Dataset
+
+python
+Copy code
+import pandas as pd
+
+# Load dataset
+df = pd.read_csv('training.1600000.processed.noemoticon.csv', encoding='ISO-8859-1', header=None)
+
+# Rename columns
+df.columns = ['target', 'ids', 'date', 'flag', 'user', 'text']
+Install Required Libraries (if not pre-installed)
+
+python
+Copy code
+!pip install nltk scikit-learn matplotlib
+Proceed with the notebook steps:
+
+Preprocess tweets (tokenization, stopword removal, etc.)
+
+Convert to vectors using TF-IDF
+
+Train machine learning models
+
+Evaluate performance
+
+Predict sentiment for custom tweets
+
+📚 References
+GeeksforGeeks YouTube - Twitter Sentiment Analysis
+
+Sentiment140 Dataset - Kaggle
+
+Scikit-learn Documentation
+
+🧠 Future Work
+Apply deep learning models like LSTM or BERT for improved accuracy
+
+Deploy the model as a web app using Streamlit or Flask
+
+Handle emojis, hashtags, and slang in tweets for more accurate sentiment detection
+
+👩‍💻 Author
+Devika Janardhanan
+
+📜 License
+This project is licensed under the MIT License.
+
+
